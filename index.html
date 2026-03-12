@@ -490,7 +490,7 @@ function hideModal() { document.getElementById('apiModal').style.display = 'none
 
 function saveApiKey() {
   const val = document.getElementById('apiKeyInput').value.trim();
-  if (!val.startsWith('sk-or-v1')) {
+  if (!val.startsWith('sk-ant')) {
     document.getElementById('apiKeyInput').style.borderColor = '#ef4444';
     document.getElementById('apiKeyInput').placeholder = '❌ Noto\'g\'ri format! sk-ant-... bilan boshlanishi kerak';
     return;
